@@ -1,0 +1,14 @@
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\bin\Debug\net8.0\Desafio_Curso3.exe
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\bin\Debug\net8.0\Desafio_Curso3.deps.json
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\bin\Debug\net8.0\Desafio_Curso3.runtimeconfig.json
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\bin\Debug\net8.0\Desafio_Curso3.dll
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\bin\Debug\net8.0\Desafio_Curso3.pdb
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.AssemblyInfoInputs.cache
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.AssemblyInfo.cs
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.dll
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\refint\Desafio_Curso3.dll
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.pdb
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\Desafio_Curso3.genruntimeconfig.cache
+C:\Users\Carlos\OneDrive\Desktop\Projects\Desafio_Curso3\obj\Debug\net8.0\ref\Desafio_Curso3.dll
