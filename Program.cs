@@ -1,4 +1,5 @@
-﻿//Escrever um programa que faça uam requisição para a API de games CheapShark e mostre na tela a lista de promoções cadastrada na ferramenta (Você pode utilizar o endpoint: https://www.cheapshark.com/api/1.0/deals).
+﻿using System.Text.Json;
+//Escrever um programa que faça uam requisição para a API de games CheapShark e mostre na tela a lista de promoções cadastrada na ferramenta (Você pode utilizar o endpoint: https://www.cheapshark.com/api/1.0/deals).
 
 // using (HttpClient client = new HttpClient())
 // {
@@ -101,21 +102,38 @@
 
 //Modelar e desserializar a classe Carro, que pode ser encontrada no endpoint disponibilizado(https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Carros.json)
 
-using System.Text.Json;
+// try
+// {
+//     using(HttpClient client = new HttpClient())
+//     {
+//         string reposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Carros.json");
+//         var Carros = JsonSerializer.Deserialize<List<Carro>>(reposta)!;
+//         foreach(var carro in Carros)
+//         {
+//             System.Console.WriteLine(carro.FichaTecnica);
+//         }
+//     }
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine(ex.Message);
+// }
 
-try
-{
-    using(HttpClient client = new HttpClient())
-    {
-        string reposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Carros.json");
-        var Carros = JsonSerializer.Deserialize<List<Carro>>(reposta)!;
-        foreach(var carro in Carros)
-        {
-            System.Console.WriteLine(carro.FichaTecnica);
-        }
-    }
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//Modelar e desserializar a classe Livro, que pode ser encontrada no endpoint disponibilizado(https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json)
+
+// try
+// {
+//     using(HttpClient client = new HttpClient())
+//     {
+//         string resposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json");
+//         var livros = JsonSerializer.Deserialize<List<Livros>>(resposta)!;
+//         foreach(var livro in livros)
+//         {
+//             System.Console.WriteLine(livro.Resume);
+//         }
+//     }
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine(ex.Message);
+// }
