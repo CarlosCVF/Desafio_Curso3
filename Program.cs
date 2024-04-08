@@ -59,21 +59,63 @@
 //Modelar e desserializar a classe Filme, que pode ser encontrada no endpoint disponibilizado
 //https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json
 
+// using System.Text.Json;
+
+// try
+// {
+//     using(HttpClient client = new HttpClient())
+//     {
+//         string resposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json");
+//         var filmes = JsonSerializer.Deserialize<List<Filme>>(resposta)!;
+//         foreach (var filme in filmes)
+//         {
+//             Console.WriteLine(filme.ShowDetails);
+//         }
+//     }
+// }
+// catch(Exception ex)
+// {
+//     System.Console.WriteLine($"Erro: {ex.Message}");
+// }
+
+//Modelar e desserializar a classe Pais, que pode ser encontrada no endpoint disponibilizado(https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Paises.json)
+
+// using System.Text.Json;
+
+// try
+// {
+//     using(HttpClient client = new HttpClient())
+//     {
+//         string resposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Paises.json");
+//         var paises = JsonSerializer.Deserialize<List<Pais>>(resposta)!;
+//         foreach(var pais in paises)
+//         {
+//             System.Console.WriteLine(pais.Resume);
+//         }
+//     }
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine(ex.Message);
+// }
+
+//Modelar e desserializar a classe Carro, que pode ser encontrada no endpoint disponibilizado(https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Carros.json)
+
 using System.Text.Json;
 
 try
 {
     using(HttpClient client = new HttpClient())
     {
-        string resposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json");
-        var filmes = JsonSerializer.Deserialize<List<Filme>>(resposta)!;
-        foreach (var filme in filmes)
+        string reposta = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Carros.json");
+        var Carros = JsonSerializer.Deserialize<List<Carro>>(reposta)!;
+        foreach(var carro in Carros)
         {
-            Console.WriteLine(filme.ShowDetails);
+            System.Console.WriteLine(carro.FichaTecnica);
         }
     }
 }
-catch(Exception ex)
+catch (Exception ex)
 {
-    System.Console.WriteLine($"Erro: {ex.Message}");
+    Console.WriteLine(ex.Message);
 }
