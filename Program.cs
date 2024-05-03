@@ -137,3 +137,34 @@
 // {
 //     Console.WriteLine(ex.Message);
 // }
+
+//Dada uma lista de números, criar uma consulta LINQ para retornar apenas os elementos únicos da lista.
+
+// List<int> numeros = new List<int>{1, 1, 2, 3, 5, 5, 5, 5, 7, 8, 9, 40, 4};
+
+// var numerosDiferentes = numeros.Distinct();
+
+// foreach (var numbers in numerosDiferentes)
+// {
+//     System.Console.WriteLine(numbers);
+// }
+
+//Dada uma lista de livros com título, autor e ano de publicação, criar uma consulta LINQ para retornar uma lista com os títulos dos livros publicados após o ano 2000, ordenados alfabeticamente.
+
+// List<Livro> Livros = new List<Livro>
+// {
+//     new Livro { Titulo = "Aprendendo LINQ", Autor = "João Silva", AnoLancamento = 2005 },
+//     new Livro { Titulo = "Programação em C#", Autor = "Ana Oliveira", AnoLancamento = 2010 },
+//     new Livro { Titulo = "Algoritmos e Estruturas de Dados", Autor = "Carlos Santos", AnoLancamento = 1998 },
+//     new Livro { Titulo = "Introdução à Inteligência Artificial", Autor = "Mariana Costa", AnoLancamento = 2021 },
+//     new Livro { Titulo = "Design Patterns", Autor = "Paulo Rocha", AnoLancamento = 2002 }
+// };
+
+// var Livro2000 = Livros.Where(Livro => Livro.AnoLancamento > 2000).OrderBy(Livro => Livro.Titulo).Select(Livro => Livro.Titulo);
+
+// foreach (var Livro in Livro2000)
+// {
+//     System.Console.WriteLine($"- {Livro}");
+// }
+
+//Dada uma lista de produtos com nome e preço, criar uma consulta LINQ para calcular o preço médio dos produtos.
